@@ -14,6 +14,6 @@ test('2 euros = 2.4 dolares',()=>{
     expect(fromEuroToDollar(2)).toBe(2.4);
 });
 
-test('2 yenes = 0.0124',()=>{
+test('2 yenes = 0.012509773260359656 pounds',()=>{
     expect(fromYenToPound(2)).toBe(0.012509773260359656)
 });
